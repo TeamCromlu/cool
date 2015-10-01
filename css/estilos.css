@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.Header-fixed {
+  background: #0ff;
+  width: 20%;
+  display: inline-block;
+  text-align: top;
+  position: fixed;
+  height: 100vh;
+}
+.Header-fixed__box {
+  text-align: center;
+}
+.Header-fixed img {
+  max-width: 100%;
+}
+.Body_Main {
+  background: #ffa500;
+}
+.Body_Main__box {
+  width: 80%;
+  display: inline-block;
+  text-align: top;
+  margin-left: 20%;
+}
+.Body_Main .About-me {
+  background: #800080;
+  width: 100%;
+}
+.Body_Main .About-me__box {
+  padding: 1em;
+}
+.Body_Main .Hola {
+  background: #ff0;
+  width: 100%;
+}
+.Body_Main .Hola__box {
+  padding: 1em;
+}
